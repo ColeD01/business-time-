@@ -1,0 +1,152 @@
+/* * {
+    box-sizing: border-box;
+    font-size: 0px;
+} */
+html{
+    background-color:#9dc3e6;
+}
+
+
+
+.wBanner {
+    display: inline-block;
+    font-size:25px;
+    margin-left: 30px; 
+      
+}
+.tP {
+    width: 200px;
+    display: inline-block;
+    margin-left: 195px;
+}
+.dropBtn{
+    background-color: rgb(235, 235, 80);
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position:absolute;
+    background-color:rgb(197, 197, 64);
+    min-width:160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content > a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropBtn {
+    background-color: rgb(173, 173, 51);
+}
+.about-Us{
+   background-color: rgb(235, 235, 80);
+   display: inline-block;
+}
+.about-Us > h2{
+    margin-left:160px;
+}
+/* .dropdown-content > .test{
+    display: none;
+    position:absolute;
+    background-color:rgb(197, 197, 64);
+    min-width:160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content > .test{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+} */
+
+.features{
+display: inline-block;
+margin-top:40px ;
+
+}
+.features > h2{
+    margin-left: 225px;
+}
+.pricing{
+    background-color:rgb(235, 235, 80) ;
+    margin-top: 40px;
+    padding: 5px;
+}
+.pricing > h2{
+    margin-left: 225px;
+}
+.price-list{
+    font-size: larger;
+}
+.availability{
+    display: inline-block;
+    background-color:rgb(235, 235, 80) ;
+    padding: 5px;
+}
+
+.availability > h2{
+    margin-left: 200px;
+}
+
+/* Hiring page */
+
+.hiring-header{
+    margin-left: 80px;
+}
+.dropbtn-2{
+    background-color: rgb(235, 235, 80);
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+
+}
+.dropdown-2{
+    position: relative;
+    display: inline-block;
+}
+.dropdwnCon-2{
+display: none;
+position:absolute;
+background-color:rgb(197, 197, 64);
+min-width:160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdwnCon-2 > a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+.dropdwnCon-2 > a:hover{
+    background-color: #ddd;
+  
+}
+.dropdown-2:hover .dropdwnCon-2{
+    display: block;
+}
+.dropdown-2:hover .dropbtn-2{
+    background-color: rgb(173, 173, 51); 
+}
+.positions{
+    background-color: rgb(235, 235, 80);
+}
+.positions > h2{
+    margin-left: 95px;
+}
